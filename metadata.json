@@ -1,0 +1,6 @@
+{
+  "name": "School Drive",
+  "description": "ระบบจัดเก็บและบริหารจัดการเอกสารโรงเรียน เข้าสู่ระบบ 3 รูปแบบ สิทธิ์ 4 ระดับ จัดหมวดหมู่ ซ้อนโฟลเดอร์ 10 ชั้น แชร์เอกสาร และสำรองข้อมูลอัตโนมัติ",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
