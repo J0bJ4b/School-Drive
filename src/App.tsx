@@ -9,6 +9,7 @@ import { TemplatesView } from './components/TemplatesView';
 import { TrashView } from './components/TrashView';
 import { BackupRecoveryView } from './components/BackupRecoveryView';
 import { AdminConsoleView } from './components/AdminConsoleView';
+import { GoogleDriveLiveView } from './components/GoogleDriveLiveView';
 import { LoginModal } from './components/LoginModal';
 import { ForcePasswordChangeModal } from './components/ForcePasswordChangeModal';
 import { UploadModal } from './components/UploadModal';
@@ -113,6 +114,8 @@ function MainLayout() {
               onOpenFileViewer={handleOpenFileViewer}
             />
           )}
+
+          {activeTab === 'google_drive' && <GoogleDriveLiveView />}
 
           {activeTab === 'shared_with_me' && (
             <SharedWithMeView
